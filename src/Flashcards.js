@@ -138,8 +138,7 @@ export default function Flashcards({
         {
             front: "initial",
             question: "Usamos estado (state) para _",
-            answer:
-                "dizer para o React quais informações quando atualizadas devem renderizar a tela novamente",
+            answer: "dizer para o React quais informações quando atualizadas devem renderizar a tela novamente",
         },
     ]);
 

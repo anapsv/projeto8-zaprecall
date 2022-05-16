@@ -10,7 +10,7 @@ function Footeremoji({ numQuestions, notZap }) {
             <img src={congratsEmoji} alt="Emoji de Parabéns" />
             <span>Parabéns!</span>
           </div>
-          <div> "Você não esqueceu de nenhum flashcard!"</div>
+          <div>Você não esqueceu de nenhum flashcard!</div>
         </>
       );
     } else if (numQuestions === 8 && Zap < 8) {
@@ -20,7 +20,7 @@ function Footeremoji({ numQuestions, notZap }) {
             <img src={sadEmoji} alt="Emoji Triste" />
             <span>Putz...</span>
           </div>
-          <div> Ainda faltam alguns... Mas não desanime!</div>
+          <div>Ainda faltam alguns... Mas não desanime!</div>
         </>
       );
     } else return "";
